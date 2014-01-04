@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		568A9D68179715BC00E9987F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 568A9D65179715BC00E9987F /* Default-568h@2x.png */; };
+		568A9D69179715BC00E9987F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 568A9D66179715BC00E9987F /* Default.png */; };
+		568A9D6A179715BC00E9987F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 568A9D67179715BC00E9987F /* Default@2x.png */; };
+		5690CB781597F6FD0023E6A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5690CB771597F6FD0023E6A2 /* UIKit.framework */; };
+		5690CB7A1597F6FD0023E6A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5690CB791597F6FD0023E6A2 /* Foundation.framework */; };
+		5690CB7C1597F6FD0023E6A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5690CB7B1597F6FD0023E6A2 /* CoreGraphics.framework */; };
+		5690CBA51597F7540023E6A2 /* CSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5690CB971597F7540023E6A2 /* CSAppDelegate.m */; };
+		5690CBA61597F7540023E6A2 /* CSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5690CB991597F7540023E6A2 /* CSViewController.m */; };
+		5690CBA71597F7540023E6A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5690CB9E1597F7540023E6A2 /* main.m */; };
+		5690CBA81597F7540023E6A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5690CBA01597F7540023E6A2 /* InfoPlist.strings */; };
+		5690CBAA1597F7540023E6A2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5690CBA41597F7540023E6A2 /* MainStoryboard.storyboard */; };
+		5690CBB21597F7D00023E6A2 /* CSCoreDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5690CBB11597F7D00023E6A2 /* CSCoreDataService.m */; };
+		5690CBB41597F8480023E6A2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5690CBB31597F8480023E6A2 /* CoreData.framework */; };
+		5690CBB71597F8E10023E6A2 /* MainModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5690CBB51597F8E10023E6A2 /* MainModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		568A9D65179715BC00E9987F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		568A9D66179715BC00E9987F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		568A9D67179715BC00E9987F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5690CB731597F6FD0023E6A2 /* CollegeChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollegeChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5690CB771597F6FD0023E6A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5690CB791597F6FD0023E6A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5690CB7B1597F6FD0023E6A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5690CB961597F7540023E6A2 /* CSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAppDelegate.h; sourceTree = "<group>"; };
+		5690CB971597F7540023E6A2 /* CSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAppDelegate.m; sourceTree = "<group>"; };
+		5690CB981597F7540023E6A2 /* CSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSViewController.h; sourceTree = "<group>"; };
+		5690CB991597F7540023E6A2 /* CSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSViewController.m; sourceTree = "<group>"; };
+		5690CB9D1597F7540023E6A2 /* CollegeChef-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CollegeChef-Prefix.pch"; sourceTree = "<group>"; };
+		5690CB9E1597F7540023E6A2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5690CBA11597F7540023E6A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5690CBA31597F7540023E6A2 /* CollegeChef-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CollegeChef-Info.plist"; sourceTree = "<group>"; };
+		5690CBA41597F7540023E6A2 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5690CBB01597F7D00023E6A2 /* CSCoreDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCoreDataService.h; sourceTree = "<group>"; };
+		5690CBB11597F7D00023E6A2 /* CSCoreDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCoreDataService.m; sourceTree = "<group>"; };
+		5690CBB31597F8480023E6A2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5690CBB61597F8E10023E6A2 /* MainModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MainModel.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5690CB701597F6FD0023E6A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5690CB781597F6FD0023E6A2 /* UIKit.framework in Frameworks */,
+				5690CB7A1597F6FD0023E6A2 /* Foundation.framework in Frameworks */,
+				5690CB7C1597F6FD0023E6A2 /* CoreGraphics.framework in Frameworks */,
+				5690CBB41597F8480023E6A2 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5690CB681597F6FD0023E6A2 = {
+			isa = PBXGroup;
+			children = (
+				5690CB941597F7540023E6A2 /* Classes */,
+				5690CB9C1597F7540023E6A2 /* OtherSource */,
+				5690CB9F1597F7540023E6A2 /* Resources */,
+				5690CB761597F6FD0023E6A2 /* Frameworks */,
+				5690CB741597F6FD0023E6A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5690CB741597F6FD0023E6A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5690CB731597F6FD0023E6A2 /* CollegeChef.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5690CB761597F6FD0023E6A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5690CBB31597F8480023E6A2 /* CoreData.framework */,
+				5690CB7B1597F6FD0023E6A2 /* CoreGraphics.framework */,
+				5690CB791597F6FD0023E6A2 /* Foundation.framework */,
+				5690CB771597F6FD0023E6A2 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5690CB941597F7540023E6A2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5690CB951597F7540023E6A2 /* Controller */,
+				5690CB9A1597F7540023E6A2 /* Model */,
+				5690CBAB1597F7680023E6A2 /* Service */,
+				5690CB9B1597F7540023E6A2 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5690CB951597F7540023E6A2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5690CB961597F7540023E6A2 /* CSAppDelegate.h */,
+				5690CB971597F7540023E6A2 /* CSAppDelegate.m */,
+				5690CB981597F7540023E6A2 /* CSViewController.h */,
+				5690CB991597F7540023E6A2 /* CSViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5690CB9A1597F7540023E6A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5690CB9B1597F7540023E6A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5690CB9C1597F7540023E6A2 /* OtherSource */ = {
+			isa = PBXGroup;
+			children = (
+				5690CB9D1597F7540023E6A2 /* CollegeChef-Prefix.pch */,
+				5690CB9E1597F7540023E6A2 /* main.m */,
+			);
+			path = OtherSource;
+			sourceTree = "<group>";
+		};
+		5690CB9F1597F7540023E6A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5690CBA21597F7540023E6A2 /* Images */,
+				568A9D65179715BC00E9987F /* Default-568h@2x.png */,
+				568A9D66179715BC00E9987F /* Default.png */,
+				568A9D67179715BC00E9987F /* Default@2x.png */,
+				5690CBA01597F7540023E6A2 /* InfoPlist.strings */,
+				5690CBA31597F7540023E6A2 /* CollegeChef-Info.plist */,
+				5690CBB51597F8E10023E6A2 /* MainModel.xcdatamodeld */,
+				5690CBA41597F7540023E6A2 /* MainStoryboard.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5690CBA21597F7540023E6A2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		5690CBAB1597F7680023E6A2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5690CBB01597F7D00023E6A2 /* CSCoreDataService.h */,
+				5690CBB11597F7D00023E6A2 /* CSCoreDataService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5690CB721597F6FD0023E6A2 /* CollegeChef */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5690CB911597F6FD0023E6A2 /* Build configuration list for PBXNativeTarget "CollegeChef" */;
+			buildPhases = (
+				5690CB6F1597F6FD0023E6A2 /* Sources */,
+				5690CB701597F6FD0023E6A2 /* Frameworks */,
+				5690CB711597F6FD0023E6A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollegeChef;
+			productName = iPhone;
+			productReference = 5690CB731597F6FD0023E6A2 /* CollegeChef.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5690CB6A1597F6FD0023E6A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CS;
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 5690CB6D1597F6FD0023E6A2 /* Build configuration list for PBXProject "CollegeChef" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5690CB681597F6FD0023E6A2;
+			productRefGroup = 5690CB741597F6FD0023E6A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5690CB721597F6FD0023E6A2 /* CollegeChef */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5690CB711597F6FD0023E6A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5690CBA81597F7540023E6A2 /* InfoPlist.strings in Resources */,
+				5690CBAA1597F7540023E6A2 /* MainStoryboard.storyboard in Resources */,
+				568A9D68179715BC00E9987F /* Default-568h@2x.png in Resources */,
+				568A9D69179715BC00E9987F /* Default.png in Resources */,
+				568A9D6A179715BC00E9987F /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5690CB6F1597F6FD0023E6A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5690CBA51597F7540023E6A2 /* CSAppDelegate.m in Sources */,
+				5690CBA61597F7540023E6A2 /* CSViewController.m in Sources */,
+				5690CBA71597F7540023E6A2 /* main.m in Sources */,
+				5690CBB21597F7D00023E6A2 /* CSCoreDataService.m in Sources */,
+				5690CBB71597F8E10023E6A2 /* MainModel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5690CBA01597F7540023E6A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5690CBA11597F7540023E6A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5690CB8F1597F6FD0023E6A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5690CB901597F6FD0023E6A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5690CB921597F6FD0023E6A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OtherSource/CollegeChef-Prefix.pch";
+				INFOPLIST_FILE = "Resources/CollegeChef-Info.plist";
+				PRODUCT_NAME = CollegeChef;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5690CB931597F6FD0023E6A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OtherSource/CollegeChef-Prefix.pch";
+				INFOPLIST_FILE = "Resources/CollegeChef-Info.plist";
+				PRODUCT_NAME = CollegeChef;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5690CB6D1597F6FD0023E6A2 /* Build configuration list for PBXProject "CollegeChef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5690CB8F1597F6FD0023E6A2 /* Debug */,
+				5690CB901597F6FD0023E6A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5690CB911597F6FD0023E6A2 /* Build configuration list for PBXNativeTarget "CollegeChef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5690CB921597F6FD0023E6A2 /* Debug */,
+				5690CB931597F6FD0023E6A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5690CBB51597F8E10023E6A2 /* MainModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5690CBB61597F8E10023E6A2 /* MainModel.xcdatamodel */,
+			);
+			currentVersion = 5690CBB61597F8E10023E6A2 /* MainModel.xcdatamodel */;
+			path = MainModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5690CB6A1597F6FD0023E6A2 /* Project object */;
+}

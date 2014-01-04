@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4692E05E-7474-4148-95B5-7F40006C9783</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CollegeChef</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5DE35CC5-B601-4D49-A546-C1C858090E16</key>
+		<string>https://github.com/sahildiwan/CollegeChef.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CollegeChef.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5DE35CC5-B601-4D49-A546-C1C858090E16</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/sahildiwan/CollegeChef.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5DE35CC5-B601-4D49-A546-C1C858090E16</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5DE35CC5-B601-4D49-A546-C1C858090E16</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CollegeChef</string>
+		</dict>
+	</array>
+</dict>
+</plist>
