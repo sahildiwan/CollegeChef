@@ -3,7 +3,7 @@
 //  CollegeChef
 //
 //  Created by Sahil Diwan.
-//  Copyright (c) 2012. All rights reserved.
+//  Copyright (c) 2014. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
