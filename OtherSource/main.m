@@ -2,7 +2,7 @@
 //  main.m
 //  CollegeChef
 //
-//  Created by Sahil Diwan on 1/6/14.
+//  Created by Sahil Diwan.
 //  Copyright (c) 2012. All rights reserved.
 //
 
@@ -10,8 +10,9 @@
 
 #import "CSAppDelegate.h"
 
-int main(int argc, char *argv[])
-{
+
+
+int main(int argc, char *argv[]) {
 	@autoreleasepool {
 	    return UIApplicationMain(argc, argv, nil, NSStringFromClass([CSAppDelegate class]));
 	}

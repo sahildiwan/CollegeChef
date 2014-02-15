@@ -15,12 +15,20 @@
 		5690CB7C1597F6FD0023E6A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5690CB7B1597F6FD0023E6A2 /* CoreGraphics.framework */; };
 		5690CBA51597F7540023E6A2 /* CSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5690CB971597F7540023E6A2 /* CSAppDelegate.m */; };
 		5690CBA61597F7540023E6A2 /* CSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5690CB991597F7540023E6A2 /* CSViewController.m */; };
-		5690CBA71597F7540023E6A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5690CB9E1597F7540023E6A2 /* main.m */; };
 		5690CBA81597F7540023E6A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5690CBA01597F7540023E6A2 /* InfoPlist.strings */; };
 		5690CBAA1597F7540023E6A2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5690CBA41597F7540023E6A2 /* MainStoryboard.storyboard */; };
-		5690CBB21597F7D00023E6A2 /* CSCoreDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5690CBB11597F7D00023E6A2 /* CSCoreDataService.m */; };
 		5690CBB41597F8480023E6A2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5690CBB31597F8480023E6A2 /* CoreData.framework */; };
 		5690CBB71597F8E10023E6A2 /* MainModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5690CBB51597F8E10023E6A2 /* MainModel.xcdatamodeld */; };
+		AF1AC9F117BAB52600D34E37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1AC9F017BAB52600D34E37 /* main.m */; };
+		AF1BA35E17B8463F007E399B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1BA35D17B8463F007E399B /* MessageUI.framework */; };
+		AF3333DB17AACC4B00FD771B /* CSHTMLParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3333DA17AACC4B00FD771B /* CSHTMLParsing.m */; };
+		AF6CE08E17B05EBB00C01310 /* CSTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6CE08D17B05EBB00C01310 /* CSTextFieldCell.m */; };
+		AF6CE09017B3317500C01310 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6CE08F17B3317500C01310 /* libxml2.dylib */; };
+		AF6CE09B17B3F75900C01310 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6CE09A17B3F75800C01310 /* MobileCoreServices.framework */; };
+		AF6CE09C17B3F79F00C01310 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3333E017AACD3700FD771B /* TFHpple.m */; };
+		AF6CE09D17B3F7A300C01310 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3333E217AACD3700FD771B /* TFHppleElement.m */; };
+		AF6CE09E17B3F7A800C01310 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3333E417AACD3700FD771B /* XPathQuery.m */; };
+		AFCE76D217A830C500FB712E /* CSSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCE76D117A830C500FB712E /* CSSearchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,15 +43,28 @@
 		5690CB971597F7540023E6A2 /* CSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAppDelegate.m; sourceTree = "<group>"; };
 		5690CB981597F7540023E6A2 /* CSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSViewController.h; sourceTree = "<group>"; };
 		5690CB991597F7540023E6A2 /* CSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSViewController.m; sourceTree = "<group>"; };
-		5690CB9D1597F7540023E6A2 /* CollegeChef-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CollegeChef-Prefix.pch"; sourceTree = "<group>"; };
-		5690CB9E1597F7540023E6A2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5690CBA11597F7540023E6A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5690CBA31597F7540023E6A2 /* CollegeChef-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CollegeChef-Info.plist"; sourceTree = "<group>"; };
 		5690CBA41597F7540023E6A2 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
-		5690CBB01597F7D00023E6A2 /* CSCoreDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCoreDataService.h; sourceTree = "<group>"; };
-		5690CBB11597F7D00023E6A2 /* CSCoreDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCoreDataService.m; sourceTree = "<group>"; };
 		5690CBB31597F8480023E6A2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5690CBB61597F8E10023E6A2 /* MainModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MainModel.xcdatamodel; sourceTree = "<group>"; };
+		AF1AC9EF17BAB52600D34E37 /* CollegeChef-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CollegeChef-Prefix.pch"; sourceTree = "<group>"; };
+		AF1AC9F017BAB52600D34E37 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF1BA35D17B8463F007E399B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		AF3333D917AACC4B00FD771B /* CSHTMLParsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHTMLParsing.h; sourceTree = "<group>"; };
+		AF3333DA17AACC4B00FD771B /* CSHTMLParsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSHTMLParsing.m; sourceTree = "<group>"; };
+		AF3333DF17AACD3700FD771B /* TFHpple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TFHpple.h; path = Model/TFHpple.h; sourceTree = "<group>"; };
+		AF3333E017AACD3700FD771B /* TFHpple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TFHpple.m; path = Model/TFHpple.m; sourceTree = "<group>"; };
+		AF3333E117AACD3700FD771B /* TFHppleElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TFHppleElement.h; path = Model/TFHppleElement.h; sourceTree = "<group>"; };
+		AF3333E217AACD3700FD771B /* TFHppleElement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TFHppleElement.m; path = Model/TFHppleElement.m; sourceTree = "<group>"; };
+		AF3333E317AACD3700FD771B /* XPathQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XPathQuery.h; path = Model/XPathQuery.h; sourceTree = "<group>"; };
+		AF3333E417AACD3700FD771B /* XPathQuery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = XPathQuery.m; path = Model/XPathQuery.m; sourceTree = "<group>"; };
+		AF6CE08C17B05EBB00C01310 /* CSTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSTextFieldCell.h; sourceTree = "<group>"; };
+		AF6CE08D17B05EBB00C01310 /* CSTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSTextFieldCell.m; sourceTree = "<group>"; };
+		AF6CE08F17B3317500C01310 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		AF6CE09A17B3F75800C01310 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		AFCE76D017A830C500FB712E /* CSSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSearchViewController.h; sourceTree = "<group>"; };
+		AFCE76D117A830C500FB712E /* CSSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSearchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +72,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF1BA35E17B8463F007E399B /* MessageUI.framework in Frameworks */,
+				AF6CE09B17B3F75900C01310 /* MobileCoreServices.framework in Frameworks */,
+				AF6CE09017B3317500C01310 /* libxml2.dylib in Frameworks */,
 				5690CB781597F6FD0023E6A2 /* UIKit.framework in Frameworks */,
 				5690CB7A1597F6FD0023E6A2 /* Foundation.framework in Frameworks */,
 				5690CB7C1597F6FD0023E6A2 /* CoreGraphics.framework in Frameworks */,
@@ -65,7 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				5690CB941597F7540023E6A2 /* Classes */,
-				5690CB9C1597F7540023E6A2 /* OtherSource */,
+				AF1AC9EE17BAB52600D34E37 /* OtherSource */,
 				5690CB9F1597F7540023E6A2 /* Resources */,
 				5690CB761597F6FD0023E6A2 /* Frameworks */,
 				5690CB741597F6FD0023E6A2 /* Products */,
@@ -83,6 +107,9 @@
 		5690CB761597F6FD0023E6A2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AF6CE08F17B3317500C01310 /* libxml2.dylib */,
+				AF1BA35D17B8463F007E399B /* MessageUI.framework */,
+				AF6CE09A17B3F75800C01310 /* MobileCoreServices.framework */,
 				5690CBB31597F8480023E6A2 /* CoreData.framework */,
 				5690CB7B1597F6FD0023E6A2 /* CoreGraphics.framework */,
 				5690CB791597F6FD0023E6A2 /* Foundation.framework */,
@@ -94,6 +121,7 @@
 		5690CB941597F7540023E6A2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				AF3333E917AAD43D00FD771B /* hpple */,
 				5690CB951597F7540023E6A2 /* Controller */,
 				5690CB9A1597F7540023E6A2 /* Model */,
 				5690CBAB1597F7680023E6A2 /* Service */,
@@ -105,10 +133,13 @@
 		5690CB951597F7540023E6A2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				AF1AC9C317B9650E00D34E37 /* Protocol */,
 				5690CB961597F7540023E6A2 /* CSAppDelegate.h */,
 				5690CB971597F7540023E6A2 /* CSAppDelegate.m */,
 				5690CB981597F7540023E6A2 /* CSViewController.h */,
 				5690CB991597F7540023E6A2 /* CSViewController.m */,
+				AFCE76D017A830C500FB712E /* CSSearchViewController.h */,
+				AFCE76D117A830C500FB712E /* CSSearchViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -116,6 +147,8 @@
 		5690CB9A1597F7540023E6A2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AF3333D917AACC4B00FD771B /* CSHTMLParsing.h */,
+				AF3333DA17AACC4B00FD771B /* CSHTMLParsing.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -123,17 +156,10 @@
 		5690CB9B1597F7540023E6A2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				AF6CE08C17B05EBB00C01310 /* CSTextFieldCell.h */,
+				AF6CE08D17B05EBB00C01310 /* CSTextFieldCell.m */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		5690CB9C1597F7540023E6A2 /* OtherSource */ = {
-			isa = PBXGroup;
-			children = (
-				5690CB9D1597F7540023E6A2 /* CollegeChef-Prefix.pch */,
-				5690CB9E1597F7540023E6A2 /* main.m */,
-			);
-			path = OtherSource;
 			sourceTree = "<group>";
 		};
 		5690CB9F1597F7540023E6A2 /* Resources */ = {
@@ -161,10 +187,37 @@
 		5690CBAB1597F7680023E6A2 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				5690CBB01597F7D00023E6A2 /* CSCoreDataService.h */,
-				5690CBB11597F7D00023E6A2 /* CSCoreDataService.m */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		AF1AC9C317B9650E00D34E37 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		AF1AC9EE17BAB52600D34E37 /* OtherSource */ = {
+			isa = PBXGroup;
+			children = (
+				AF1AC9EF17BAB52600D34E37 /* CollegeChef-Prefix.pch */,
+				AF1AC9F017BAB52600D34E37 /* main.m */,
+			);
+			path = OtherSource;
+			sourceTree = "<group>";
+		};
+		AF3333E917AAD43D00FD771B /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				AF3333DF17AACD3700FD771B /* TFHpple.h */,
+				AF3333E017AACD3700FD771B /* TFHpple.m */,
+				AF3333E117AACD3700FD771B /* TFHppleElement.h */,
+				AF3333E217AACD3700FD771B /* TFHppleElement.m */,
+				AF3333E317AACD3700FD771B /* XPathQuery.h */,
+				AF3333E417AACD3700FD771B /* XPathQuery.m */,
+			);
+			name = hpple;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +288,14 @@
 			files = (
 				5690CBA51597F7540023E6A2 /* CSAppDelegate.m in Sources */,
 				5690CBA61597F7540023E6A2 /* CSViewController.m in Sources */,
-				5690CBA71597F7540023E6A2 /* main.m in Sources */,
-				5690CBB21597F7D00023E6A2 /* CSCoreDataService.m in Sources */,
 				5690CBB71597F8E10023E6A2 /* MainModel.xcdatamodeld in Sources */,
+				AFCE76D217A830C500FB712E /* CSSearchViewController.m in Sources */,
+				AF3333DB17AACC4B00FD771B /* CSHTMLParsing.m in Sources */,
+				AF6CE08E17B05EBB00C01310 /* CSTextFieldCell.m in Sources */,
+				AF6CE09C17B3F79F00C01310 /* TFHpple.m in Sources */,
+				AF6CE09D17B3F7A300C01310 /* TFHppleElement.m in Sources */,
+				AF6CE09E17B3F7A800C01310 /* XPathQuery.m in Sources */,
+				AF1AC9F117BAB52600D34E37 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -310,6 +369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
