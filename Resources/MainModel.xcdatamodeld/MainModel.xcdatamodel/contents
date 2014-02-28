@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12E55" minimumToolsVersion="Xcode 4.1" macOSVersion="Automatic" iOSVersion="Automatic">
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13B42" minimumToolsVersion="Xcode 4.1" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="Ingredients" syncable="YES">
         <attribute name="count" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <attribute name="ingredient" attributeType="String" syncable="YES"/>
@@ -19,7 +19,7 @@
     </entity>
     <elements>
         <element name="Ingredients" positionX="169" positionY="-315" width="128" height="90"/>
-        <element name="Recipe" positionX="189" positionY="-90" width="128" height="135"/>
         <element name="Picture" positionX="439" positionY="-207" width="128" height="75"/>
+        <element name="Recipe" positionX="189" positionY="-90" width="128" height="135"/>
     </elements>
 </model>

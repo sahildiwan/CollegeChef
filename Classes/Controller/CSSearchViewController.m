@@ -8,6 +8,7 @@
 #import "CSSearchViewController.h"
 
 #import "CSTextFieldCell.h"
+#import "CSFoundViewController.h"
 
 #import "TFHpple.h"
 #import "CSHTMLParsing.h"
@@ -221,9 +222,17 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([segue.identifier isEqualToString:@"FoundRecipeSegue"]) {
-        // NSString* resultIngredients = [_recipeIngredients componentsJoinedByString:@", "];
-        // NSString* resultDirections = [_recipeDirections componentsJoinedByString:@" "];
+        NSString* resultIngredients = [_recipeIngredients componentsJoinedByString:@", "];
+        NSString* resultDirections = [_recipeDirections componentsJoinedByString:@" "];
         
+        CSFoundViewController* foundDetails = segue.destinationViewController;
+        
+        foundDetails.recipeName = [_recipeTitle objectAtIndex:0];
+        NSLog(@"SearchView RecipeName: %@", foundDetails.recipeName);
+        foundDetails.recipeIngredients = resultIngredients;
+        NSLog(@"SearchView RecipeIngredients: %@", foundDetails.recipeIngredients);
+        foundDetails.recipeDirections = resultDirections;
+        NSLog(@"SearchView RecipeDirections: %@", foundDetails.recipeDirections);
     }
 }
 

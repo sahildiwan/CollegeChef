@@ -139,69 +139,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="X Recipe:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xql-ov-M3X">
-                                <rect key="frame" x="20" y="20" width="280" height="21"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wVj-67-wRD">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wVj-67-wRD">
                                 <rect key="frame" x="20" y="230" width="280" height="230"/>
                                 <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Ingredients:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MbP-1o-0gf">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="Ingredients:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MbP-1o-0gf">
                                         <rect key="frame" x="0.0" y="20" width="100" height="21"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Ingredients List" lineBreakMode="clip" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="KlF-fK-Gai">
-                                        <rect key="frame" x="0.0" y="49" width="280" height="21"/>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qwt-nd-E5c">
+                                        <rect key="frame" x="0.0" y="49" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Directions:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SbG-VK-ieX">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Directions:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EUh-xy-fKx">
                                         <rect key="frame" x="0.0" y="78" width="100" height="21"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="100" id="dw0-gA-JX5"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Recipe Directions" lineBreakMode="clip" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="BjY-Gl-s4N">
-                                        <rect key="frame" x="0.0" y="107" width="280" height="21"/>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oBl-Ek-qaS">
+                                        <rect key="frame" x="0.0" y="104" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="SbG-VK-ieX" firstAttribute="centerX" secondItem="MbP-1o-0gf" secondAttribute="centerX" id="5sF-xd-QFq"/>
                                     <constraint firstItem="MbP-1o-0gf" firstAttribute="leading" secondItem="wVj-67-wRD" secondAttribute="leading" id="V6o-aE-kXb"/>
-                                    <constraint firstItem="BjY-Gl-s4N" firstAttribute="top" secondItem="SbG-VK-ieX" secondAttribute="bottom" constant="8" symbolic="YES" id="YxE-eb-KfW"/>
-                                    <constraint firstAttribute="bottom" secondItem="BjY-Gl-s4N" secondAttribute="bottom" constant="38" id="ftW-tm-1KI"/>
-                                    <constraint firstItem="KlF-fK-Gai" firstAttribute="trailing" secondItem="wVj-67-wRD" secondAttribute="trailing" id="ijV-BS-Cm3"/>
-                                    <constraint firstItem="KlF-fK-Gai" firstAttribute="leading" secondItem="wVj-67-wRD" secondAttribute="leading" id="jX7-Ep-3gY"/>
-                                    <constraint firstItem="BjY-Gl-s4N" firstAttribute="centerX" secondItem="wVj-67-wRD" secondAttribute="centerX" id="jfP-ub-s7B"/>
-                                    <constraint firstItem="BjY-Gl-s4N" firstAttribute="leading" secondItem="wVj-67-wRD" secondAttribute="leading" id="jn9-ee-UNw"/>
-                                    <constraint firstItem="SbG-VK-ieX" firstAttribute="leading" secondItem="wVj-67-wRD" secondAttribute="leading" id="l6b-Rt-4XU"/>
-                                    <constraint firstItem="BjY-Gl-s4N" firstAttribute="trailing" secondItem="wVj-67-wRD" secondAttribute="trailing" id="oZL-Nc-79j"/>
-                                    <constraint firstItem="SbG-VK-ieX" firstAttribute="top" secondItem="KlF-fK-Gai" secondAttribute="bottom" constant="8" symbolic="YES" id="tkE-gv-MXQ"/>
                                     <constraint firstItem="MbP-1o-0gf" firstAttribute="top" secondItem="wVj-67-wRD" secondAttribute="top" constant="20" symbolic="YES" id="wkj-KH-sSz"/>
-                                    <constraint firstItem="KlF-fK-Gai" firstAttribute="top" secondItem="MbP-1o-0gf" secondAttribute="bottom" constant="8" symbolic="YES" id="wth-lA-uGe"/>
                                 </constraints>
-                                <connections>
-                                    <outlet property="delegate" destination="IuA-6E-gVa" id="f3m-5N-g9L"/>
-                                </connections>
                             </scrollView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="X Recipe" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vJB-oe-OGi">
+                                <rect key="frame" x="20" y="75" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="wVj-67-wRD" firstAttribute="leading" secondItem="IuA-6E-gVa" secondAttribute="leading" constant="20" symbolic="YES" id="8ws-hK-LMt"/>
                             <constraint firstAttribute="bottom" secondItem="wVj-67-wRD" secondAttribute="bottom" constant="20" symbolic="YES" id="Tzq-p2-EIo"/>
-                            <constraint firstItem="Xql-ov-M3X" firstAttribute="leading" secondItem="IuA-6E-gVa" secondAttribute="leading" constant="20" symbolic="YES" id="VnN-4m-TO6"/>
-                            <constraint firstItem="Xql-ov-M3X" firstAttribute="top" secondItem="IuA-6E-gVa" secondAttribute="top" constant="20" symbolic="YES" id="nXm-3d-j6E"/>
-                            <constraint firstAttribute="trailing" secondItem="Xql-ov-M3X" secondAttribute="trailing" constant="20" symbolic="YES" id="oxg-Ml-52U"/>
                             <constraint firstItem="wVj-67-wRD" firstAttribute="top" secondItem="IuA-6E-gVa" secondAttribute="top" constant="230" id="vfH-Tj-eva"/>
                             <constraint firstAttribute="trailing" secondItem="wVj-67-wRD" secondAttribute="trailing" constant="20" symbolic="YES" id="wkc-SK-1ps"/>
                         </constraints>
@@ -214,9 +195,9 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="directions" destination="BjY-Gl-s4N" id="1TJ-2P-S92"/>
-                        <outlet property="ingredients" destination="KlF-fK-Gai" id="meV-Cm-QtD"/>
-                        <outlet property="name" destination="Xql-ov-M3X" id="Ivu-lG-Qjj"/>
+                        <outlet property="directions" destination="oBl-Ek-qaS" id="fJL-p7-5uD"/>
+                        <outlet property="ingredients" destination="qwt-nd-E5c" id="EsE-cw-BDw"/>
+                        <outlet property="name" destination="vJB-oe-OGi" id="hCx-74-6tO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NTo-d0-ToU" userLabel="First Responder" sceneMemberID="firstResponder"/>

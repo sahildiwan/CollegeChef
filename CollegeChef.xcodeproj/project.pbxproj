@@ -17,18 +17,28 @@
 		5690CBA61597F7540023E6A2 /* CSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5690CB991597F7540023E6A2 /* CSViewController.m */; };
 		5690CBA81597F7540023E6A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5690CBA01597F7540023E6A2 /* InfoPlist.strings */; };
 		5690CBAA1597F7540023E6A2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5690CBA41597F7540023E6A2 /* MainStoryboard.storyboard */; };
+		5690CBB21597F7D00023E6A2 /* CSCoreDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5690CBB11597F7D00023E6A2 /* CSCoreDataService.m */; };
 		5690CBB41597F8480023E6A2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5690CBB31597F8480023E6A2 /* CoreData.framework */; };
 		5690CBB71597F8E10023E6A2 /* MainModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5690CBB51597F8E10023E6A2 /* MainModel.xcdatamodeld */; };
 		AF1AC9F117BAB52600D34E37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1AC9F017BAB52600D34E37 /* main.m */; };
+		AF1BA35817B436EA007E399B /* Camera.png in Resources */ = {isa = PBXBuildFile; fileRef = AF1BA35717B436EA007E399B /* Camera.png */; };
+		AF1BA35A17B46A3C007E399B /* DeliciousApples.png in Resources */ = {isa = PBXBuildFile; fileRef = AF1BA35917B46A3C007E399B /* DeliciousApples.png */; };
+		AF1BA35C17B46B59007E399B /* Delete.png in Resources */ = {isa = PBXBuildFile; fileRef = AF1BA35B17B46B59007E399B /* Delete.png */; };
 		AF1BA35E17B8463F007E399B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1BA35D17B8463F007E399B /* MessageUI.framework */; };
 		AF3333DB17AACC4B00FD771B /* CSHTMLParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3333DA17AACC4B00FD771B /* CSHTMLParsing.m */; };
 		AF6CE08E17B05EBB00C01310 /* CSTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6CE08D17B05EBB00C01310 /* CSTextFieldCell.m */; };
 		AF6CE09017B3317500C01310 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6CE08F17B3317500C01310 /* libxml2.dylib */; };
+		AF6CE09317B334D100C01310 /* Picture.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6CE09217B334D100C01310 /* Picture.m */; };
+		AF6CE09617B335CD00C01310 /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6CE09517B335CD00C01310 /* Recipe.m */; };
+		AF6CE09917B3373600C01310 /* Ingredients.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6CE09817B3373500C01310 /* Ingredients.m */; };
 		AF6CE09B17B3F75900C01310 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6CE09A17B3F75800C01310 /* MobileCoreServices.framework */; };
 		AF6CE09C17B3F79F00C01310 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3333E017AACD3700FD771B /* TFHpple.m */; };
 		AF6CE09D17B3F7A300C01310 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3333E217AACD3700FD771B /* TFHppleElement.m */; };
 		AF6CE09E17B3F7A800C01310 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3333E417AACD3700FD771B /* XPathQuery.m */; };
 		AFCE76D217A830C500FB712E /* CSSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCE76D117A830C500FB712E /* CSSearchViewController.m */; };
+		AFCE76D517A8310700FB712E /* CSFoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCE76D417A8310700FB712E /* CSFoundViewController.m */; };
+		AFCE76D817A8312700FB712E /* CSSavedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCE76D717A8312700FB712E /* CSSavedViewController.m */; };
+		AFCE76DB17A8315B00FB712E /* CSDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCE76DA17A8315B00FB712E /* CSDetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,10 +56,16 @@
 		5690CBA11597F7540023E6A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5690CBA31597F7540023E6A2 /* CollegeChef-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CollegeChef-Info.plist"; sourceTree = "<group>"; };
 		5690CBA41597F7540023E6A2 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5690CBB01597F7D00023E6A2 /* CSCoreDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCoreDataService.h; sourceTree = "<group>"; };
+		5690CBB11597F7D00023E6A2 /* CSCoreDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCoreDataService.m; sourceTree = "<group>"; };
 		5690CBB31597F8480023E6A2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5690CBB61597F8E10023E6A2 /* MainModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MainModel.xcdatamodel; sourceTree = "<group>"; };
+		AF1AC9CD17B96D9300D34E37 /* CSFoundViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSFoundViewControllerDelegate.h; sourceTree = "<group>"; };
 		AF1AC9EF17BAB52600D34E37 /* CollegeChef-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CollegeChef-Prefix.pch"; sourceTree = "<group>"; };
 		AF1AC9F017BAB52600D34E37 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF1BA35717B436EA007E399B /* Camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camera.png; sourceTree = "<group>"; };
+		AF1BA35917B46A3C007E399B /* DeliciousApples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeliciousApples.png; sourceTree = "<group>"; };
+		AF1BA35B17B46B59007E399B /* Delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Delete.png; sourceTree = "<group>"; };
 		AF1BA35D17B8463F007E399B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		AF3333D917AACC4B00FD771B /* CSHTMLParsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHTMLParsing.h; sourceTree = "<group>"; };
 		AF3333DA17AACC4B00FD771B /* CSHTMLParsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSHTMLParsing.m; sourceTree = "<group>"; };
@@ -62,9 +78,21 @@
 		AF6CE08C17B05EBB00C01310 /* CSTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSTextFieldCell.h; sourceTree = "<group>"; };
 		AF6CE08D17B05EBB00C01310 /* CSTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSTextFieldCell.m; sourceTree = "<group>"; };
 		AF6CE08F17B3317500C01310 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		AF6CE09117B334D100C01310 /* Picture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Picture.h; sourceTree = "<group>"; };
+		AF6CE09217B334D100C01310 /* Picture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picture.m; sourceTree = "<group>"; };
+		AF6CE09417B335CD00C01310 /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		AF6CE09517B335CD00C01310 /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
+		AF6CE09717B3373500C01310 /* Ingredients.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ingredients.h; sourceTree = "<group>"; };
+		AF6CE09817B3373500C01310 /* Ingredients.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ingredients.m; sourceTree = "<group>"; };
 		AF6CE09A17B3F75800C01310 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		AFCE76D017A830C500FB712E /* CSSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSearchViewController.h; sourceTree = "<group>"; };
 		AFCE76D117A830C500FB712E /* CSSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSearchViewController.m; sourceTree = "<group>"; };
+		AFCE76D317A8310700FB712E /* CSFoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSFoundViewController.h; sourceTree = "<group>"; };
+		AFCE76D417A8310700FB712E /* CSFoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSFoundViewController.m; sourceTree = "<group>"; };
+		AFCE76D617A8312700FB712E /* CSSavedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSavedViewController.h; sourceTree = "<group>"; };
+		AFCE76D717A8312700FB712E /* CSSavedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSavedViewController.m; sourceTree = "<group>"; };
+		AFCE76D917A8315B00FB712E /* CSDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSDetailsViewController.h; sourceTree = "<group>"; };
+		AFCE76DA17A8315B00FB712E /* CSDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSDetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +168,12 @@
 				5690CB991597F7540023E6A2 /* CSViewController.m */,
 				AFCE76D017A830C500FB712E /* CSSearchViewController.h */,
 				AFCE76D117A830C500FB712E /* CSSearchViewController.m */,
+				AFCE76D317A8310700FB712E /* CSFoundViewController.h */,
+				AFCE76D417A8310700FB712E /* CSFoundViewController.m */,
+				AFCE76D617A8312700FB712E /* CSSavedViewController.h */,
+				AFCE76D717A8312700FB712E /* CSSavedViewController.m */,
+				AFCE76D917A8315B00FB712E /* CSDetailsViewController.h */,
+				AFCE76DA17A8315B00FB712E /* CSDetailsViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -149,6 +183,12 @@
 			children = (
 				AF3333D917AACC4B00FD771B /* CSHTMLParsing.h */,
 				AF3333DA17AACC4B00FD771B /* CSHTMLParsing.m */,
+				AF6CE09117B334D100C01310 /* Picture.h */,
+				AF6CE09217B334D100C01310 /* Picture.m */,
+				AF6CE09417B335CD00C01310 /* Recipe.h */,
+				AF6CE09517B335CD00C01310 /* Recipe.m */,
+				AF6CE09717B3373500C01310 /* Ingredients.h */,
+				AF6CE09817B3373500C01310 /* Ingredients.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -180,6 +220,9 @@
 		5690CBA21597F7540023E6A2 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				AF1BA35717B436EA007E399B /* Camera.png */,
+				AF1BA35B17B46B59007E399B /* Delete.png */,
+				AF1BA35917B46A3C007E399B /* DeliciousApples.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -187,6 +230,8 @@
 		5690CBAB1597F7680023E6A2 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				5690CBB01597F7D00023E6A2 /* CSCoreDataService.h */,
+				5690CBB11597F7D00023E6A2 /* CSCoreDataService.m */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -194,6 +239,7 @@
 		AF1AC9C317B9650E00D34E37 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				AF1AC9CD17B96D9300D34E37 /* CSFoundViewControllerDelegate.h */,
 			);
 			name = Protocol;
 			sourceTree = "<group>";
@@ -276,6 +322,9 @@
 				568A9D68179715BC00E9987F /* Default-568h@2x.png in Resources */,
 				568A9D69179715BC00E9987F /* Default.png in Resources */,
 				568A9D6A179715BC00E9987F /* Default@2x.png in Resources */,
+				AF1BA35817B436EA007E399B /* Camera.png in Resources */,
+				AF1BA35A17B46A3C007E399B /* DeliciousApples.png in Resources */,
+				AF1BA35C17B46B59007E399B /* Delete.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,10 +337,17 @@
 			files = (
 				5690CBA51597F7540023E6A2 /* CSAppDelegate.m in Sources */,
 				5690CBA61597F7540023E6A2 /* CSViewController.m in Sources */,
+				5690CBB21597F7D00023E6A2 /* CSCoreDataService.m in Sources */,
 				5690CBB71597F8E10023E6A2 /* MainModel.xcdatamodeld in Sources */,
 				AFCE76D217A830C500FB712E /* CSSearchViewController.m in Sources */,
+				AFCE76D517A8310700FB712E /* CSFoundViewController.m in Sources */,
+				AFCE76D817A8312700FB712E /* CSSavedViewController.m in Sources */,
+				AFCE76DB17A8315B00FB712E /* CSDetailsViewController.m in Sources */,
 				AF3333DB17AACC4B00FD771B /* CSHTMLParsing.m in Sources */,
 				AF6CE08E17B05EBB00C01310 /* CSTextFieldCell.m in Sources */,
+				AF6CE09317B334D100C01310 /* Picture.m in Sources */,
+				AF6CE09617B335CD00C01310 /* Recipe.m in Sources */,
+				AF6CE09917B3373600C01310 /* Ingredients.m in Sources */,
 				AF6CE09C17B3F79F00C01310 /* TFHpple.m in Sources */,
 				AF6CE09D17B3F7A300C01310 /* TFHppleElement.m in Sources */,
 				AF6CE09E17B3F7A800C01310 /* XPathQuery.m in Sources */,
@@ -383,6 +439,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OtherSource/CollegeChef-Prefix.pch";
 				INFOPLIST_FILE = "Resources/CollegeChef-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = CollegeChef;
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +451,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OtherSource/CollegeChef-Prefix.pch";
 				INFOPLIST_FILE = "Resources/CollegeChef-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = CollegeChef;
 				WRAPPER_EXTENSION = app;
 			};
