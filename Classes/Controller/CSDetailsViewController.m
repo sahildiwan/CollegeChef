@@ -49,7 +49,7 @@
 }
 
 - (IBAction)pickPicture:(id)sender {
-	if(_clearPictureButton.hidden) {
+	//if(_clearPictureButton.hidden) {
 		_addImageActionSheet = [[UIActionSheet alloc] initWithTitle:@"Pick Image Source" delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil];
 		_addImageActionSheet.actionSheetStyle = UIActionSheetStyleBlackOpaque;
         
@@ -77,7 +77,7 @@
 			[_addImageActionSheet setCancelButtonIndex:cancelButtonIndex];
 			[_addImageActionSheet showInView:self.view];
 		}
-	}
+	//}
 }
 
 - (IBAction)clearPicture:(id)sender {

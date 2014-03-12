@@ -223,16 +223,15 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([segue.identifier isEqualToString:@"FoundRecipeSegue"]) {
         NSString* resultIngredients = [_recipeIngredients componentsJoinedByString:@", "];
+        NSLog(@"resultIngredients: %@", resultIngredients);
         NSString* resultDirections = [_recipeDirections componentsJoinedByString:@" "];
+        NSLog(@"resultDirections: %@", resultDirections);
         
         CSFoundViewController* foundDetails = segue.destinationViewController;
         
         foundDetails.recipeName = [_recipeTitle objectAtIndex:0];
-        NSLog(@"SearchView RecipeName: %@", foundDetails.recipeName);
         foundDetails.recipeIngredients = resultIngredients;
-        NSLog(@"SearchView RecipeIngredients: %@", foundDetails.recipeIngredients);
         foundDetails.recipeDirections = resultDirections;
-        NSLog(@"SearchView RecipeDirections: %@", foundDetails.recipeDirections);
     }
 }
 

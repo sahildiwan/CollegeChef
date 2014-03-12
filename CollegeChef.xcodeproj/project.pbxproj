@@ -439,7 +439,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OtherSource/CollegeChef-Prefix.pch";
 				INFOPLIST_FILE = "Resources/CollegeChef-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = CollegeChef;
 				WRAPPER_EXTENSION = app;
 			};
@@ -451,7 +451,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OtherSource/CollegeChef-Prefix.pch";
 				INFOPLIST_FILE = "Resources/CollegeChef-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = CollegeChef;
 				WRAPPER_EXTENSION = app;
 			};
